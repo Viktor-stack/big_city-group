@@ -1,0 +1,94 @@
+@media (max-width: 1700px) {
+  .about__inner {
+    margin-left: 0;
+    margin-bottom: 220px;
+
+    &:after {
+      display: none;
+    }
+  }
+  .about__content {
+    text-align: center;
+  }
+  .about__text {
+    padding: 20px;
+    width: auto;
+    margin: 0 auto;
+  }
+  .footer__inner {
+    text-align: center;
+    flex-direction: column;
+
+    .footer__logo {
+      margin-bottom: 30px;
+      padding-right: 0;
+
+      &:after {
+        display: none;
+      }
+    }
+
+    .footer__text {
+      letter-spacing: 1px;
+      line-height: 25px;
+    }
+  }
+  .car__image {
+    margin-top: 50px;
+    display: block;
+    width: 100%
+  }
+}
+
+@media (max-width: 1565px) {
+  .header__inner {
+    display: block;
+  }
+  .header__title {
+    margin-top: 200px;
+    font-size: 56px;
+
+    span {
+      font-size: 85px;
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .header__local {
+    display: none;
+  }
+  .header__menu {
+    display: none;
+  }
+  .header__logo {
+    justify-content: center;
+  }
+  .menu-btn {
+    background-color: #0088CC;
+    padding: 5px;
+    display: block;;
+  }
+}
+
+@media (max-width: 660px) {
+  .header__title {
+    font-size: 35px;
+    padding-left: 0;
+
+    &:before {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .header__title {
+    span {
+      font-size: 70px;
+    }
+
+    margin-left: 25px;
+    font-size: 35px;
+  }
+}
